@@ -3,7 +3,7 @@
 A Device Friendly Space-website-template
 
 _A device friendly space website._
-[Visit Website](" https://namandeep-123.github.io/space-website-template/") for a demo.
+[Visit Website](https://namandeep-123.github.io/space-website-template/ "Space-website") for a demo.
 
 ---
 
