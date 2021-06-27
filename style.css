@@ -251,18 +251,32 @@ nav ul a {
 /* Gallery */
 .gallery {
   display: grid;
-  min-height: 100vh;
+  max-height: 100vh;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50% 50%; /*repeat(2, 1fr);*/
+  overflow: hidden;
+  position: relative;
 }
-.gallery img {
+.template-box {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 3rem 25rem 3rem 25rem;
+  font-size: var(--bigtext);
+  transform: translate(-50%, -50%);
+}
+
+.gallery div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 .gallery1 {
   grid-column: 1/3;
-  width: 50%;
 }
+
 .gallery3 {
   grid-column: 3/4;
   grid-row: 1/3;
@@ -418,12 +432,15 @@ footer ul {
     padding: 3rem 3rem;
   }
   /* Gallery */
+  .template-box {
+    display: none;
+  }
   .gallery img {
     grid-row: auto;
     grid-column: auto;
   }
   .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
   /* contact  */
   #contact img {

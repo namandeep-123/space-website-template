@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="icon" href="./img/astronaut.png">
+    <link rel="icon" href="./img/astronaut.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
       rel="stylesheet"
@@ -107,10 +107,15 @@
         </div>
       </section>
       <section class="gallery" id="gallery">
-        <img class="gallery1" src="./img/blue-sky.jpg" alt="Space" />
-        <img class="gallery2" src="./img/red-space.jpg" alt="Red-spy" />
-        <img class="gallery3" src="./img/jar.jpg" alt="Space-jar" />
-        <img class="gallery4" src="./img/Earth.jpg" alt="Earth" />
+        <div class="template-box">Space</div>
+        <div class="gallery1">
+          <img src="./img/blue-sky.jpg" alt="Space" />
+        </div>
+        <div class="gallery2">
+          <img src="./img/red-space.jpg" alt="Red-spy" />
+        </div>
+        <div class="gallery3"><img src="./img/jar.jpg" alt="Space-jar" /></div>
+        <div class="gallery4"><img src="./img/Earth.jpg" alt="Earth" /></div>
       </section>
       <section id="contact" id="contact">
         <div class="form-wrapper flex">
@@ -118,9 +123,8 @@
             Get in <br />
             <span>Touch</span>
           </h2>
-          <form action="https://formspree.io/f/xvodrjvn"
-          method="POST">
-            <label for="Email" >Email:</label>
+          <form action="https://formspree.io/f/xvodrjvn" method="POST">
+            <label for="Email">Email:</label>
             <input type="email" name="_replyto" required />
             <button type="submit">Submit</button>
           </form>
