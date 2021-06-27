@@ -26,7 +26,7 @@ _A device friendly space website._
 
 ---
 
-![Here]("https://media.giphy.com/media/x9zUPfJC916G8ff5eS/giphy.gif")
+![Here](https://media.giphy.com/media/x9zUPfJC916G8ff5eS/giphy.gif)
 
 ---
 
