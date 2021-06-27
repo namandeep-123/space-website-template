@@ -26,7 +26,7 @@ _A device friendly space website._
 
 ---
 
-## ![ezgif com-gif-maker](https://user-images.githubusercontent.com/73788547/123529864-44e25980-d712-11eb-8bfc-ff65600f96a8.mp4)
+![Here]("https://media.giphy.com/media/x9zUPfJC916G8ff5eS/giphy.gif")
 
 ---
 
